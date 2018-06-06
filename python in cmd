@@ -1,0 +1,50 @@
+numpy
+
+
+t=arange(0,3,0.01)
+T=6*log(t)-t*exp(0.2*t)
+figure(1)
+clf()
+plot(t,T)
+xlabel('Time (s)')
+ylabel('&y(t)$')
+title('Chris')
+
+
+clf()  
+will clear a figure
+clear 
+will clear cmd window
+
+
+
+$
+signs will make it more mathematic
+
+savefig('myfig.png', dpi=300)
+will save with set resolution of graph
+
+%hist  will give history of comands in secion
+
+ctrl d will exit out of current comand environment
+
+NNEEEDDDD .py to run as a batch
+
+ need to import librarys when using text editor
+ 
+from matplotlib.pyplot import *
+from numpy import *
+
+
+ 
+numpy
+run buckley.py
+
+pwd , will show you your working directory, it works just like the cmd 
+it has to be saved in the activ directory
+
+sudo apt-get install scrot
+will install screen capture
+
+go cmd and type scrot
+then printscreen

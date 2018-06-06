@@ -1,0 +1,3 @@
+wordList =['Jose', 'Sue', 'Ivan']
+for i in xrange(0,3):
+	print wordList[i],wordList[i], "\n"
